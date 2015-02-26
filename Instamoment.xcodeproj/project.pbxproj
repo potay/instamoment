@@ -14,6 +14,21 @@
 		99BCD9B51A9EB42A0078BBA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BCD9B41A9EB42A0078BBA4 /* Images.xcassets */; };
 		99BCD9B81A9EB42A0078BBA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99BCD9B61A9EB42A0078BBA4 /* LaunchScreen.xib */; };
 		99BCD9C41A9EB42A0078BBA4 /* InstamomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCD9C31A9EB42A0078BBA4 /* InstamomentTests.swift */; };
+		99BCD9CF1A9EC3CC0078BBA4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9CD1A9EC3CC0078BBA4 /* Bolts.framework */; };
+		99BCD9D01A9EC3CC0078BBA4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9CE1A9EC3CC0078BBA4 /* Parse.framework */; };
+		99BCD9D21A9EC40A0078BBA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9D11A9EC40A0078BBA4 /* AudioToolbox.framework */; };
+		99BCD9D41A9EC40F0078BBA4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9D31A9EC40F0078BBA4 /* CFNetwork.framework */; };
+		99BCD9D61A9EC4210078BBA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9D51A9EC4210078BBA4 /* CoreGraphics.framework */; };
+		99BCD9D81A9EC4260078BBA4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9D71A9EC4260078BBA4 /* CoreLocation.framework */; };
+		99BCD9DA1A9EC4400078BBA4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9D91A9EC4400078BBA4 /* libz.dylib */; };
+		99BCD9DC1A9EC44D0078BBA4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9DB1A9EC44D0078BBA4 /* MobileCoreServices.framework */; };
+		99BCD9DE1A9EC4560078BBA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9DD1A9EC4560078BBA4 /* QuartzCore.framework */; };
+		99BCD9E01A9EC46B0078BBA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9DF1A9EC46B0078BBA4 /* Security.framework */; };
+		99BCD9E21A9EC4700078BBA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9E11A9EC4700078BBA4 /* StoreKit.framework */; };
+		99BCD9E41A9EC4790078BBA4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9E31A9EC4790078BBA4 /* SystemConfiguration.framework */; };
+		99BCD9E61A9EC4970078BBA4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9E51A9EC4970078BBA4 /* libsqlite3.dylib */; };
+		99BCD9EC1A9ED1FD0078BBA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9EA1A9ED1FD0078BBA4 /* AVFoundation.framework */; };
+		99BCD9ED1A9ED1FD0078BBA4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCD9EB1A9ED1FD0078BBA4 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +53,22 @@
 		99BCD9BD1A9EB42A0078BBA4 /* InstamomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstamomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BCD9C21A9EB42A0078BBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99BCD9C31A9EB42A0078BBA4 /* InstamomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstamomentTests.swift; sourceTree = "<group>"; };
+		99BCD9CD1A9EC3CC0078BBA4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		99BCD9CE1A9EC3CC0078BBA4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		99BCD9D11A9EC40A0078BBA4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99BCD9D31A9EC40F0078BBA4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		99BCD9D51A9EC4210078BBA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99BCD9D71A9EC4260078BBA4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99BCD9D91A9EC4400078BBA4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		99BCD9DB1A9EC44D0078BBA4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		99BCD9DD1A9EC4560078BBA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99BCD9DF1A9EC46B0078BBA4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99BCD9E11A9EC4700078BBA4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99BCD9E31A9EC4790078BBA4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		99BCD9E51A9EC4970078BBA4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		99BCD9E71A9EC4FC0078BBA4 /* Instamoment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instamoment-Bridging-Header.h"; sourceTree = "<group>"; };
+		99BCD9EA1A9ED1FD0078BBA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99BCD9EB1A9ED1FD0078BBA4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +76,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BCD9EC1A9ED1FD0078BBA4 /* AVFoundation.framework in Frameworks */,
+				99BCD9ED1A9ED1FD0078BBA4 /* AVKit.framework in Frameworks */,
+				99BCD9E61A9EC4970078BBA4 /* libsqlite3.dylib in Frameworks */,
+				99BCD9E41A9EC4790078BBA4 /* SystemConfiguration.framework in Frameworks */,
+				99BCD9E21A9EC4700078BBA4 /* StoreKit.framework in Frameworks */,
+				99BCD9E01A9EC46B0078BBA4 /* Security.framework in Frameworks */,
+				99BCD9DE1A9EC4560078BBA4 /* QuartzCore.framework in Frameworks */,
+				99BCD9DC1A9EC44D0078BBA4 /* MobileCoreServices.framework in Frameworks */,
+				99BCD9DA1A9EC4400078BBA4 /* libz.dylib in Frameworks */,
+				99BCD9D81A9EC4260078BBA4 /* CoreLocation.framework in Frameworks */,
+				99BCD9D61A9EC4210078BBA4 /* CoreGraphics.framework in Frameworks */,
+				99BCD9D41A9EC40F0078BBA4 /* CFNetwork.framework in Frameworks */,
+				99BCD9D21A9EC40A0078BBA4 /* AudioToolbox.framework in Frameworks */,
+				99BCD9D01A9EC3CC0078BBA4 /* Parse.framework in Frameworks */,
+				99BCD9CF1A9EC3CC0078BBA4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +107,23 @@
 		99BCD99C1A9EB42A0078BBA4 = {
 			isa = PBXGroup;
 			children = (
+				99BCD9EA1A9ED1FD0078BBA4 /* AVFoundation.framework */,
+				99BCD9EB1A9ED1FD0078BBA4 /* AVKit.framework */,
+				99BCD9E51A9EC4970078BBA4 /* libsqlite3.dylib */,
+				99BCD9E31A9EC4790078BBA4 /* SystemConfiguration.framework */,
+				99BCD9E11A9EC4700078BBA4 /* StoreKit.framework */,
+				99BCD9DF1A9EC46B0078BBA4 /* Security.framework */,
+				99BCD9DD1A9EC4560078BBA4 /* QuartzCore.framework */,
+				99BCD9DB1A9EC44D0078BBA4 /* MobileCoreServices.framework */,
+				99BCD9D91A9EC4400078BBA4 /* libz.dylib */,
+				99BCD9D71A9EC4260078BBA4 /* CoreLocation.framework */,
+				99BCD9D51A9EC4210078BBA4 /* CoreGraphics.framework */,
+				99BCD9D31A9EC40F0078BBA4 /* CFNetwork.framework */,
+				99BCD9D11A9EC40A0078BBA4 /* AudioToolbox.framework */,
 				99BCD9A71A9EB42A0078BBA4 /* Instamoment */,
 				99BCD9C01A9EB42A0078BBA4 /* InstamomentTests */,
 				99BCD9A61A9EB42A0078BBA4 /* Products */,
+				99BCD9E71A9EC4FC0078BBA4 /* Instamoment-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +139,8 @@
 		99BCD9A71A9EB42A0078BBA4 /* Instamoment */ = {
 			isa = PBXGroup;
 			children = (
+				99BCD9CD1A9EC3CC0078BBA4 /* Bolts.framework */,
+				99BCD9CE1A9EC3CC0078BBA4 /* Parse.framework */,
 				99BCD9AA1A9EB42A0078BBA4 /* AppDelegate.swift */,
 				99BCD9AF1A9EB42A0078BBA4 /* ViewController.swift */,
 				99BCD9B11A9EB42A0078BBA4 /* Main.storyboard */,
@@ -340,9 +402,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Instamoment",
+				);
 				INFOPLIST_FILE = Instamoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instamoment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +419,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Instamoment",
+				);
 				INFOPLIST_FILE = Instamoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instamoment-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +484,7 @@
 				99BCD9C91A9EB42A0078BBA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99BCD9CA1A9EB42A0078BBA4 /* Build configuration list for PBXNativeTarget "InstamomentTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +493,7 @@
 				99BCD9CC1A9EB42A0078BBA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
